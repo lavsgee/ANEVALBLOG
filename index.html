@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Blog</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aneva | I Hear Your Story</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>My Blog</h1>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
-        <button id="toggle-mode">Toggle Dark Mode</button>
-    </header>
 
-    <main>
-        <section id="posts">
-            <!-- Blog Post 1 -->
-            <article>
-                <h2>Blog Post 1: Welcome!</h2>
-                <p>This is my first blog post. Excited to share thoughts here.</p>
-                <p><small>Posted on: November 16, 2025</small></p>
-            </article>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <nav class="top-nav">
+      <div class="logo">Aneva</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="dark-mode-toggle">Toggle Dark Mode</button>
+    </nav>
 
-            <!-- Blog Post 2 -->
-            <article>
-                <h2>Blog Post 2: Learning Web Dev</h2>
-                <p>Today, I learned about HTML, CSS, and JS. It's fun!</p>
-                <p><small>Posted on: November 15, 2025</small></p>
-            </article>
+    <div class="hero-content">
+      <h1>
+        I HEAR<br>
+        <span>YOUR</span><br>
+        STORY
+      </h1>
+    </div>
+  </header>
 
-            <!-- NEW Blog Post 3 (added in Step 7) -->
-            <article>
-                <h2>Blog Post 3: My First Image</h2>
-                <p>Here’s a picture I took yesterday. Learning how to add images is easy!</p>
-                <img src="https://picsum.photos/600/300" alt="Random sample image" style="max-width:100%;border-radius:8px;">
-                <p><small>Posted on: November 14, 2025</small></p>
-            </article>
-        </section>
-    </main>
+  <!-- BLOG POSTS SECTION (keeps your existing posts) -->
+  <main class="blog-posts">
+    <article class="post-card">
+      <h2>Blog Post 1: Welcome!</h2>
+      <p>This is my first blog post. Excited to share thoughts here.</p>
+      <small>Posted on: November 16, 2025</small>
+    </article>
 
-    <footer>
-        <p>&copy; 2025 My Blog. All rights reserved.</p>
-    </footer>
+    <article class="post-card">
+      <h2>Blog Post 2: Learning Web Dev</h2>
+      <p>Today, I learned about HTML, CSS, and JS. It's fun!</p>
+      <small>Posted on: November 15, 2025</small>
+    </article>
 
-    <script src="script.js"></script>
+    <article class="post-card">
+      <h2>Blog Post 3: My First Image</h2>
+      <p>Here's a picture I took yesterday. Learning how to add images is easy!</p>
+      <img src="images/your-sunset.jpg" alt="Sunset" class="post-image">
+      <small>Posted on: November 14, 2025</small>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
