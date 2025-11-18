@@ -22,7 +22,7 @@ body { font-family:'Segoe UI',sans-serif; background:#000; color:#eee; overflow-
 .hero-content h1 { font-size:9vw; line-height:0.9; font-weight:900; color:white; text-shadow:4px 4px 20px rgba(0,0,0,0.8); }
 .hero-content span { color:#0ff; font-size:1.2em; }
 
-/* WHO AM I – perfect 3 paragraphs */
+/* WHO AM I */
 .whoami-section {
   min-height:100vh;
   background: linear-gradient(135deg, #00c9c9 0%, #001a2e 70%);
@@ -44,12 +44,7 @@ body { font-family:'Segoe UI',sans-serif; background:#000; color:#eee; overflow-
   line-height:1.9;
   color:#e0f7f7;
 }
-.whoami-text p.mission {
-  line-height:2.4;
-}
-.whoami-text p.mission br {
-  margin-bottom:14px;
-}
+.whoami-text p.mission { line-height:2.4; }
 .whoami-title {
   font-size:14vw;
   font-weight:900;
@@ -65,6 +60,25 @@ body { font-family:'Segoe UI',sans-serif; background:#000; color:#eee; overflow-
 .post-card { background:rgba(255,255,255,0.1); padding:30px; border-radius:15px; backdrop-filter:blur(10px); border:1px solid rgba(255,255,255,0.1); transition:transform .3s; }
 .post-card:hover { transform:translateY(-10px); }
 .post-image { width:100%; border-radius:10px; margin-top:15px; }
+
+/* CONTACT SECTION */
+.contact-section {
+  min-height:80vh;
+  background: linear-gradient(135deg, #001a2e 0%, #000 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:100px 20px;
+  text-align:center;
+  color:#e0f7f7;
+}
+.contact-container h2 { font-size:6vw; margin-bottom:30px; color:white; }
+.contact-text { font-size:1.4rem; line-height:2; margin-bottom:40px; max-width:700px; margin-left:auto; margin-right:auto; }
+.contact-btn { display:inline-block; background:#0ff; color:#000; padding:16px 40px; border-radius:50px; font-size:1.3rem; font-weight:bold; text-decoration:none; margin:20px 0; transition:all .3s; }
+.contact-btn:hover { background:white; transform:scale(1.05); }
+.social-links { margin-top:50px; font-size:1.2rem; }
+.social-links a { color:#0ff; text-decoration:none; }
+.social-links a:hover { text-decoration:underline; }
 
 /* Mobile */
 @media (max-width:960px) {
