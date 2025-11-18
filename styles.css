@@ -22,33 +22,38 @@ body { font-family:'Segoe UI',sans-serif; background:#000; color:#eee; overflow-
 .hero-content h1 { font-size:9vw; line-height:0.9; font-weight:900; color:white; text-shadow:4px 4px 20px rgba(0,0,0,0.8); }
 .hero-content span { color:#0ff; font-size:1.2em; }
 
-/* WHO AM I – matches your screenshot exactly */
+/* WHO AM I – perfect match */
 .whoami-section {
   min-height:100vh;
   background: linear-gradient(135deg, #00c9c9 0%, #001a2e 70%);
   display:flex;
   align-items:center;
   padding:100px 8%;
-  position:relative;
 }
 .whoami-container {
   max-width:1400px;
   margin:0 auto;
   display:grid;
-  grid-template-columns: 1fr 1fr;
-  gap:60px;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
   align-items:center;
 }
-.whoami-text {
+.whoami-text p {
+  margin-bottom:40px;
   font-size:1.25rem;
   line-height:1.9;
   color:#e0f7f7;
 }
-.whoami-text .lead { margin-bottom:30px; }
-.whoami-text .mission { margin:40px 0; }
-.whoami-text strong { color:#0ff; font-size:1.4rem; display:block; margin:12px 0; }
-.whoami-text .closing { font-style:italic; color:#b0e0e0; }
-
+.whoami-text p.mission strong {
+  color:#0ff;
+  font-size:1.4rem;
+  display:block;
+  margin:14px 0;
+}
+.whoami-text p:last-child {
+  font-style:italic;
+  color:#b0e0e0;
+}
 .whoami-title {
   font-size:14vw;
   font-weight:900;
